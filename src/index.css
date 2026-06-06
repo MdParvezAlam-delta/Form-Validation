@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Custom positioning for the field name class */
+.fieldName {
+  position: relative;
+  display: inline-block;
+}
+
+.fieldName::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  background-color: #3b82f6;
+  border-radius: 50%;
+}
+
+/* Optional: Add smooth scrolling to the page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional: Base font settings */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
