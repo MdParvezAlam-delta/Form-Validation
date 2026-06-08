@@ -18,6 +18,14 @@
   border-radius: 50%;
 }
 
+/* Custom heading style for signup title */
+.heading {
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-align: center;
+  color: #1f2937;
+}
+
 /* Optional: Add smooth scrolling to the page */
 html {
   scroll-behavior: smooth;
